@@ -5,6 +5,7 @@ import { Footer } from "@/components/main/Footer"
 import { UserProvider } from "@/contexts/UserProvider"
 import { Login } from '@/components/authentication/Login';
 import { Register } from '@/components/authentication/Register';
+import { Logout } from './components/authentication/Logout';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                <Route path="/" element={<Home />} />
                <Route path="/login" element={<Login />} />
                <Route path="/register" element={<Register />} />
+               <Route path="/logout" element={<Logout />} />
             </Route>
          </Routes>
          <Footer />
