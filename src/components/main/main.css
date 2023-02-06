@@ -1,0 +1,26 @@
+
+body{
+   height: 100vh;
+}
+
+#root{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+nav{
+   background-color: var(--color-primary);
+   padding:0.71rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav a{
+   text-decoration: none;
+}
+
+section{
+   background-color: var(--color-primary-tint);
+   flex: 1;
+}
