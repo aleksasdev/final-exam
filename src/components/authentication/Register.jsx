@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { ValidationForm, ValidInput, HAVE_VALID_EMAIL,
    MINIMUM_LENGTH_8, HAVE_VALID_URL } from '@aleksasdev/validation-form'
 import { Fetcher } from '@aleksasdev/json-api'
 import { DATABASE_URL, USERS_ROUTE } from '@/constants/general';
 import { nanoid } from 'nanoid'
+import { UserContext } from '@/contexts/UserProvider';
+import { useNavigate } from 'react-router';
 
 export const Register = () => {
+
+   const { loginUser } = useContext(UserContext);
+   const navigator = useNavigate();
 
    const doRegistration = async (values) =>{
 
@@ -30,13 +35,17 @@ export const Register = () => {
          return;
       }
 
-      await new Fetcher(DATABASE_URL+USERS_ROUTE).post({
+      const userObject = {
          id: nanoid(),
          email,
          username,
          password,
          avatarUrl
-      })
+      }
+
+      await new Fetcher(DATABASE_URL+USERS_ROUTE).post(userObject);
+      loginUser(userObject);
+      navigator("/");
    }
 
    return (
