@@ -9,5 +9,15 @@
     }
   ],
   "posts": [
+    {
+      "id": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "title": "f",
+      "content": "f",
+      "rating": 0,
+      "likedBy": [],
+      "dislikedBy": [],
+      "answers": []
+    }
   ]
 }

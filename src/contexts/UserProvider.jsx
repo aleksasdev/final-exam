@@ -14,7 +14,7 @@ export const UserProvider = ({ children }) => {
 
       const allUsers = await new Fetcher(DATABASE_URL+USERS_ROUTE).get();
       setUsers(allUsers);
-      
+
    }
 
    const loginUserWithRememberMe = async () =>{
@@ -40,8 +40,8 @@ export const UserProvider = ({ children }) => {
    }
 
    const getUserById = async (userId) =>{
-
-      const allUsers = await new Fetcher(DATABASE_URL+USERS_ROUTE).get();
+      const matchingUser = users.find(user => user.id === userId);
+      return matchingUser;
    }
 
    useEffect(()=>{
@@ -56,7 +56,7 @@ export const UserProvider = ({ children }) => {
       <UserContext.Provider value={{
          user, setUser,
          users, setUsers,
-         loginUser
+         loginUser, getUserById
       }}>
          {children}
       </UserContext.Provider>

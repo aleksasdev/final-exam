@@ -1,8 +1,19 @@
-import React from 'react'
+import { UserContext } from '@/contexts/UserProvider';
+import React, { useContext, useEffect, useState } from 'react'
 
 export const Question = ({ data }) => {
 
-	const { title, content, ownerUsername, ownerAvatarUrl } = data;
+	const { getUserById } = useContext(UserContext);
+	const { title, content, ownerId } = data;
+	const [ownersDetails, setOwnersDetails] = useState({});
+
+	const getOwnerDetails = async () =>{
+		setOwnersDetails(await getUserById(ownerId));
+	}
+
+	useEffect(()=>{
+		getOwnerDetails();
+	}, [])
 
 	return (
 		<div className='question'>
@@ -10,9 +21,9 @@ export const Question = ({ data }) => {
 				<h1 className="title">{title}</h1>
 				<p className="body">{content}</p>
 				<span className="avatar-wrapper">
-					<img src={ownerAvatarUrl} alt="" />
+					<img src={ownersDetails.avatarUrl} alt="" />
 					<p className='asked-by'>Asked By</p>
-					<p className='owner-username'>{ownerUsername}</p>
+					<p className='owner-username'>{ownersDetails.username}</p>
 				</span>
 			</div>
 		</div>
