@@ -8,14 +8,23 @@ export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
 
    const [user, setUser] = useState(null);
+   const [users, setUsers] = useState([]);
+
+   const fetchUsers = async () =>{
+
+      const allUsers = await new Fetcher(DATABASE_URL+USERS_ROUTE).get();
+      setUsers(allUsers);
+      
+   }
 
    const loginUserWithRememberMe = async () =>{
+      if(users.length === 0) return;
+
       const savedEmail = localStorage.getItem("email");
       const savedPassword = localStorage.getItem("password");
       if(!savedEmail || !savedPassword) return;
 
-      const allUsers = await new Fetcher(DATABASE_URL+USERS_ROUTE).get();
-      const userObject = allUsers.find(user=> user.email === savedEmail && user.password === savedPassword);
+      const userObject = users.find(user=> user.email === savedEmail && user.password === savedPassword);
       loginUser(userObject);
 
    }
@@ -30,13 +39,23 @@ export const UserProvider = ({ children }) => {
       })
    }
 
+   const getUserById = async (userId) =>{
+
+      const allUsers = await new Fetcher(DATABASE_URL+USERS_ROUTE).get();
+   }
+
+   useEffect(()=>{
+      fetchUsers();
+   }, [])
+
    useEffect(()=>{
       loginUserWithRememberMe();
-   }, [])
+   }, [users])
 
    return (
       <UserContext.Provider value={{
-         user, setUser, 
+         user, setUser,
+         users, setUsers,
          loginUser
       }}>
          {children}
