@@ -1,6 +1,3 @@
-#questions{
-   padding: 1rem 0.8rem;
-}
 #questions .questions-header{
    display: grid;
    grid-template: 1fr 1fr / 1fr 1fr;

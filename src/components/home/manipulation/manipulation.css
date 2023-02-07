@@ -13,3 +13,15 @@
 #questions-container .manipulation-container .delete-button{
    fill: var(--color-button-delete);
 }
+
+#edit-post form{
+   display: grid;
+   gap: 0.5rem;
+   margin-top: 1rem;
+}
+#edit-post form input[type="submit"]{
+   justify-self: center;
+}
+#edit-post .question{
+   grid-template-rows: 1fr max-content;
+}

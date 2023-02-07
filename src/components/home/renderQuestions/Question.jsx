@@ -5,11 +5,12 @@ import { Manipulation } from '../manipulation/Manipulation';
 export const Question = ({ data }) => {
 
 	const { getUserById } = useContext(UserContext);
-	const { title, content, ownerId } = data;
+	const { title, content, id, ownerId } = data;
 	const [ownersDetails, setOwnersDetails] = useState({});
 
 	const getOwnerDetails = async () =>{
-		setOwnersDetails(await getUserById(ownerId));
+		const ownersDetails = await getUserById(ownerId);
+		setOwnersDetails(ownersDetails);
 	}
 
 	useEffect(()=>{
@@ -23,12 +24,12 @@ export const Question = ({ data }) => {
 				<p className="body">{content}</p>
 			</div>
 
-			<Manipulation ownerId={ownerId} />
+			<Manipulation ownerId={ownerId} postId={id} />
 
 			<span className="avatar-wrapper">
-				<img src={ownersDetails.avatarUrl} alt="" />
+				<img src={ownersDetails?.avatarUrl} alt="" />
 				<p className='asked-by'>Asked By</p>
-				<p className='owner-username'>{ownersDetails.username}</p>
+				<p className='owner-username'>{ownersDetails?.username}</p>
 			</span>
 		</div>
 	)
