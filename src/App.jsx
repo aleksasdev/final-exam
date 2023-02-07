@@ -6,6 +6,7 @@ import { UserProvider } from "@/contexts/UserProvider"
 import { Login } from '@/components/authentication/Login';
 import { Register } from '@/components/authentication/Register';
 import { Logout } from './components/authentication/Logout';
+import { AskQuestion } from './components/home/AskQuestion';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                <Route path="/login" element={<Login />} />
                <Route path="/register" element={<Register />} />
                <Route path="/logout" element={<Logout />} />
+               <Route path="/new-question" element={<AskQuestion />} />
             </Route>
          </Routes>
          <Footer />
