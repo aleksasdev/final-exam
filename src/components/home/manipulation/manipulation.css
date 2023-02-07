@@ -6,7 +6,7 @@
    gap: 0.5rem;
 }
 #questions-container .manipulation-container svg{
-   width: 1.5rem;
+   width: 1.4rem;
    height: auto;
    fill: var(--color-text);
 }

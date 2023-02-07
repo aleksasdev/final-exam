@@ -1,6 +1,8 @@
 #questions-container{
    margin-top: 1rem;
    display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
 }
 
 #questions-container .question{
@@ -8,12 +10,16 @@
    padding: 0.5rem;
    border-radius: 5px;
    display: grid;
-   grid-template: repeat(2, max-content) / 1fr max-content;
+   grid-template: 5rem max-content / 1fr max-content;
    flex: 2;
+   word-break: break-all;
 }
 
 #questions-container .question .content{
    display: grid;
+   padding: 0.5rem;
+   gap: 0.2rem;
+   overflow: hidden;
 }
 
 #questions-container .question .avatar-wrapper{
@@ -21,7 +27,8 @@
    grid-template: repeat(2, max-content) / repeat(2, max-content);
    gap: 0.1rem;
    justify-self: flex-end;
-   grid-column: 2;
+   grid-column: span 2;
+   margin-top: 1rem;
 }
 #questions-container .question .avatar-wrapper .asked-by{
    align-self: flex-end;
@@ -30,7 +37,7 @@
    color: var(--color-text);
 }
 #questions-container .question .avatar-wrapper img{
-   width: 4rem;
+   width: 3.5rem;
    height: auto;
    object-fit: cover;
    border-radius: 50%;
