@@ -22,9 +22,13 @@ export const PostsProvider = ({ children }) => {
 		const postObject = {
 			id: nanoid(),
 			ownerId: user.id,
+			ownerAvatarUrl: user.avatarUrl,
+			ownerUsername: user.username,
 			title,
 			content,
-			ratedBy: [],
+			rating: 0,
+			likedBy: [],
+			dislikedBy: [],
 			answers: []
 		}
 
