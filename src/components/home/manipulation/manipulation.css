@@ -1,0 +1,15 @@
+#questions-container .manipulation-container{
+   grid-column: 2;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   gap: 0.5rem;
+}
+#questions-container .manipulation-container svg{
+   width: 1.5rem;
+   height: auto;
+   fill: var(--color-text);
+}
+#questions-container .manipulation-container .delete-button{
+   fill: var(--color-button-delete);
+}
