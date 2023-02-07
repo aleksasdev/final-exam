@@ -3,7 +3,6 @@
    grid-template: 1fr 1fr / 1fr 1fr;
    padding: 1rem 0.8rem;
    align-items: center;
-   border: 1px solid var(--color-text-shade);
 }
 
 #questions .ask-question-button{
