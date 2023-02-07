@@ -20,3 +20,25 @@
    --color-text: white;
    --color-text-shade: #dcdbde;
 }
+
+.button-style{
+   background-color: var(--color-button);
+   color: var(--color-text);
+   width: max-content;
+   padding: 0.6rem;
+   border-radius: 5px;
+   display: flex;
+   text-decoration: none;
+   border: none;
+   outline: none;
+}
+
+.input-style{
+   background-color: var(--color-primary);
+   border: none;
+   padding: 0.6rem;
+   border-radius: 5px;
+}
+.input-style:focus{
+   outline: none;
+}

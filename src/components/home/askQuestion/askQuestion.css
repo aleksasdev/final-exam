@@ -1,0 +1,11 @@
+#ask-question form{
+   display: grid;
+   padding: 1rem;
+   gap: 0.5rem;
+}
+#ask-question textarea{
+   max-width: 100%;
+}
+#ask-question input[type="submit"]{
+   justify-self: center;
+}

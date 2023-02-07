@@ -1,0 +1,13 @@
+#questions .questions-header{
+   display: grid;
+   grid-template: 1fr 1fr / 1fr 1fr;
+   padding: 1rem 0.8rem;
+   align-items: center;
+}
+
+#questions .ask-question-button{
+   justify-self: flex-end;
+}
+#questions .filter{
+   justify-self: flex-end;
+}
