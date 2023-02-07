@@ -1,0 +1,10 @@
+.remember-me-container{
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   margin-top: 0.4rem;
+}
+.remember-me-container input[type="checkbox"]{
+   height: 1.2rem;
+   width: 1.2rem;
+}

@@ -1,15 +1,22 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { ValidationForm, ValidInput, HAVE_VALID_EMAIL,
    MINIMUM_LENGTH_8 } from '@aleksasdev/validation-form'
 import { Fetcher } from '@aleksasdev/json-api'
 import { DATABASE_URL, USERS_ROUTE } from '@/constants/general';
 import { UserContext } from '@/contexts/UserProvider';
 import { useNavigate } from 'react-router';
+import { RememberMe } from './RememberMe';
 
 export const Login = () => {
 
    const { loginUser } = useContext(UserContext);
    const navigator = useNavigate();
+	const [shouldSaveDetails, setShouldSaveDetails] = useState(false);
+
+   const doRememberMe = (email, password) =>{
+      localStorage.setItem("email", email);
+      localStorage.setItem("password", password);
+   }
 
    const doLogin = async (values) =>{
       const [email, password] = values;
@@ -28,6 +35,7 @@ export const Login = () => {
          return;
       }
 
+      if(shouldSaveDetails) doRememberMe(email, password);
       loginUser(matchingUser);
       navigator("/");
    }
@@ -39,6 +47,7 @@ export const Login = () => {
             <ValidInput name="email" requirements={[HAVE_VALID_EMAIL]} />
             <p>Password</p>
             <ValidInput name="password" requirements={[MINIMUM_LENGTH_8]} type="password" />
+            <RememberMe setShouldSaveDetails={setShouldSaveDetails} />
          </ValidationForm>
       </section>
    )

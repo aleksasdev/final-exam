@@ -9,6 +9,7 @@ export const Logout = () => {
 
    const doLogout = () =>{
       setUser(null);
+      localStorage.clear();
       navigator("/");
    }
 
