@@ -20,3 +20,12 @@
    --color-text: white;
    --color-text-shade: #dcdbde;
 }
+
+.button-style{
+   background-color: var(--color-button);
+   color: var(--color-text);
+   width: max-content;
+   padding: 0.7rem;
+   border-radius: 5px;
+   display: flex;
+}
