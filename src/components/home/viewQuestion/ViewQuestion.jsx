@@ -3,6 +3,8 @@ import { Question } from '@/components/home/renderQuestions/Question'
 import { PostsContext } from '@/contexts/PostsProvider';
 import { useParams } from 'react-router';
 import './viewQuestion.css';
+import { AnswerForm } from './answers/AnswerForm';
+import { RenderAnswers } from './answers/RenderAnswers';
 
 export const ViewQuestion = () => {
 
@@ -22,7 +24,11 @@ export const ViewQuestion = () => {
    return (
       <section id="view-question">
          {postData &&
+            <>
             <Question data={postData} />
+            <RenderAnswers postObject={postData} />
+            <AnswerForm postObject={postData} />
+            </>
          }
       </section>
    )

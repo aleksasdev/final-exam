@@ -34,6 +34,23 @@ export const PostsProvider = ({ children }) => {
 		setPosts(current => [...current, postObject]);
 	}
 
+	const addAnswer = async (answerText, postObject) =>{
+
+		const postId = postObject.id;
+
+		const answerObject = {
+			id: nanoid(),
+			ownerId: user.id,
+			content: answerText
+		}
+		postObject.answers.push(answerObject);
+
+		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
+
+		const parsedPosts = posts.map(post => post.id === postId ? postObject : post);
+      setPosts(parsedPosts);
+	}
+
 	const editPost = async (postObject, postId) =>{
 		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
 
@@ -53,7 +70,8 @@ export const PostsProvider = ({ children }) => {
 		<PostsContext.Provider value={{
 			posts, setPosts,
 			fetchPosts, addPost,
-			editPost, getPostById
+			addAnswer, editPost, 
+			getPostById
 		}}>
 			{children}
 		</PostsContext.Provider>

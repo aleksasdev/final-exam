@@ -13,11 +13,37 @@
       "id": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "title": "Nicdsfdsfdsfffff",
-      "content": "Cfsdfdsfdsfdsfdsfdsf",
+      "content": "CfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsfCfsdfdsfdsfdsfdsfdsf",
       "rating": 0,
       "likedBy": [],
       "dislikedBy": [],
-      "answers": []
+      "answers": [
+        {
+          "id": "EB4Gs12oByJeFnr3iShhH",
+          "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+          "content": "dfdsf"
+        },
+        {
+          "id": "OxFKbNRXacOM9RSt5MORO",
+          "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+          "content": "fsdfsf"
+        },
+        {
+          "id": "qCOh3RyYnBB28KEx4Y22J",
+          "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+          "content": "fsdfsf"
+        },
+        {
+          "id": "r11UkHPkuAsDyJ5rl3hn7",
+          "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+          "content": "fsdfsf"
+        },
+        {
+          "id": "j1CmcmNSgFz3Z3puSvLlW",
+          "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+          "content": "f"
+        }
+      ]
     },
     {
       "id": "6_K8QfcRWTYRMbjKp3BIC",
