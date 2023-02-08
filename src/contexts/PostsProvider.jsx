@@ -25,9 +25,10 @@ export const PostsProvider = ({ children }) => {
 			title,
 			content,
 			rating: 0,
+			isEdited: false,
 			likedBy: [],
 			dislikedBy: [],
-			answers: []
+			answers: [],
 		}
 
 		await new Fetcher(DATABASE_URL+POSTS_ROUTE).post(postObject);

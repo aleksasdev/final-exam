@@ -19,8 +19,14 @@ export const Answer = ({ data }) => {
       <div className='answer'>
          {ownerDetails &&
             <>
-            <p>{content}</p>
-            <p>{ownerDetails.id}</p>
+            <div className="content-wrapper">
+               <p className='content'>{content}</p>
+            </div>
+            
+            <div className="owner-wrapper">
+               <p className='username'>{ownerDetails.username}</p>
+               <img src={ownerDetails.avatarUrl} alt="" />
+            </div>
             </>
          }
       </div>

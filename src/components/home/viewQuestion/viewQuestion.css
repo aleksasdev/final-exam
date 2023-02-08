@@ -18,3 +18,26 @@
    width: 100%;
    max-width: 100%;
 }
+
+/* Answer */
+.answers-container .answer{
+   display: grid;
+   grid-template: max-content / 1fr max-content;
+   padding: 0.4rem;
+}
+.answers-container .content-wrapper{
+}
+
+/* Answer owner */
+.answers-container .owner-wrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-self: flex-end;
+}
+.answers-container .owner-wrapper img{
+   width: 3rem;
+   height: auto;
+   object-fit: cover;
+   border-radius: 50%;
+}
