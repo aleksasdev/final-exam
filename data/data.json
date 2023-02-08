@@ -6,6 +6,13 @@
       "username": "Lolmanas",
       "password": "ffffffffffff",
       "avatarUrl": "https://i1.sndcdn.com/avatars-000737077780-co96jx-t500x500.jpg"
+    },
+    {
+      "id": "bZSoVxjifxjeN_r2apLd9",
+      "email": "foureyes@gmail.com",
+      "username": "Mister Four Eyes",
+      "password": "supadupa2",
+      "avatarUrl": "https://64.media.tumblr.com/74eab5e4fa0b82d45e27c9bcbf01dda2/tumblr_ollo9uQKW61vr9uv5o1_500.gif"
     }
   ],
   "posts": [
@@ -26,6 +33,17 @@
       "rating": 0,
       "likedBy": [],
       "dislikedBy": []
+    },
+    {
+      "id": "TzIcptpf9VnEyXUttzn28",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "title": "Hello",
+      "content": "Hello.",
+      "rating": 0,
+      "isEdited": false,
+      "likedBy": [],
+      "dislikedBy": [],
+      "answers": []
     }
   ],
   "answers": [
@@ -33,7 +51,7 @@
       "id": "kNqnguEqEjeo07cAd96Br",
       "postId": "6_K8QfcRWTYRMbjKp3BIC",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "Cool comment ayo!",
+      "content": "Cool comment ayo!!",
       "isEdited": false
     },
     {
@@ -41,6 +59,13 @@
       "postId": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "VERY COOl",
+      "isEdited": false
+    },
+    {
+      "id": "35deKQTRgQLnHR8d0jAFN",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "content": "Yo.",
       "isEdited": false
     }
   ]

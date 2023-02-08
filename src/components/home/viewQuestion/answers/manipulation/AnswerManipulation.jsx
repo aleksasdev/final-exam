@@ -10,7 +10,7 @@ export const AnswerManipulation = ({ answerObject }) => {
    const { user } = useContext(UserContext);
    const { deleteAnswer } = useContext(PostsContext);
 
-   if(user.id !== ownerId) return;
+   if(user?.id !== ownerId) return;
 
    const doDeletion = () =>{
       deleteAnswer(id);

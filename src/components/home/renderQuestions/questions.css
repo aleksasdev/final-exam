@@ -38,7 +38,7 @@
 }
 .question .avatar-wrapper img{
    width: 3.5rem;
-   height: auto;
+   height: 3.5rem;
    object-fit: cover;
    border-radius: 50%;
    grid-row: span 2;

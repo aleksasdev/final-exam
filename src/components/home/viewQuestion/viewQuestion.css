@@ -39,12 +39,12 @@
 .answer .owner-wrapper{
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: flex-end;
    justify-self: flex-end;
 }
 .answer .owner-wrapper img{
    width: 3rem;
-   height: auto;
+   height: 3rem;
    object-fit: cover;
    border-radius: 50%;
 }
