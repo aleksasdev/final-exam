@@ -24,6 +24,9 @@ export const PostsProvider = ({ children }) => {
 		setAnswers(allAnswers);
 	}
 
+	/*
+		Posts
+	*/
 	const addPost = async (title, content) =>{
 		const postObject = {
 			id: nanoid(),
@@ -41,6 +44,21 @@ export const PostsProvider = ({ children }) => {
 		setPosts(current => [...current, postObject]);
 	}
 
+	const editPost = async (postObject) =>{
+		const postId = postObject.id;
+		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
+
+      const parsedPosts = posts.map(post => post.id === postId ? postObject : post);
+      setPosts(parsedPosts);
+	}
+
+	const getPostById = (postId) =>{
+		return posts.find(post => post.id === postId);
+	}
+
+	/*
+		Answers
+	*/
 	const addAnswer = async (content, postId) =>{
 
 		const answerObject = {
@@ -56,22 +74,11 @@ export const PostsProvider = ({ children }) => {
 		setAnswers(current => [...current, answerObject]);
 	}
 
-	const editAnswer = async (postObject, answerObject)=>{
-		const postId = postObject.id;
+	const deleteAnswer = async (answerId)=>{
+		await new Fetcher(DATABASE_URL+ANSWERS_ROUTE, answerId).delete();
 
-
-	}
-
-	const editPost = async (postObject) =>{
-		const postId = postObject.id;
-		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
-
-      const parsedPosts = posts.map(post => post.id === postId ? postObject : post);
-      setPosts(parsedPosts);
-	}
-
-	const getPostById = (postId) =>{
-		return posts.find(post => post.id === postId);
+		const filteredAnswers = answers.filter(answer => answer.id !== answerId);
+		setAnswers(filteredAnswers);
 	}
 
 	useEffect(()=>{
@@ -84,7 +91,7 @@ export const PostsProvider = ({ children }) => {
 			posts, setPosts,
 			answers, setAnswers,
 			addPost,
-			addAnswer, editAnswer,
+			addAnswer, deleteAnswer,
 			editPost, getPostById
 		}}>
 			{children}

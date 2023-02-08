@@ -11,6 +11,8 @@ import { PostsProvider } from "@/contexts/PostsProvider"
 import { EditPost } from "@/components/home/manipulation/EditPost"
 import { DeletePost } from '@/components/home/manipulation/DeletePost';
 import { ViewQuestion } from '@/components/home/viewQuestion/ViewQuestion';
+import { EditAnswer } from '@/components/home/viewQuestion/answers/manipulation/EditAnswer';
+import { DeleteAnswer } from '@/components/home/viewQuestion/answers/manipulation/DeleteAnswer';
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
                   <Route path="/delete-question/:id" element={<DeletePost />} />
                   <Route path="/view-question/:id" element={<ViewQuestion />} />
 
+                  <Route path="/view-question/:id/edit-answer/:id" element={<EditAnswer />} />
+                  
                   <Route path="/login" element={<Login />} />
                   <Route path="/register" element={<Register />} />
                   <Route path="/logout" element={<Logout />} />
