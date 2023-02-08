@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { Question } from '../Question'
+import { Question } from '@/components/home/renderQuestions/Question'
 import { PostsContext } from '@/contexts/PostsProvider';
 import { useParams } from 'react-router';
+import './viewQuestion.css';
 
 export const ViewQuestion = () => {
 
@@ -19,7 +20,7 @@ export const ViewQuestion = () => {
    }, [])
 
    return (
-      <section>
+      <section id="view-question">
          {postData &&
             <Question data={postData} />
          }

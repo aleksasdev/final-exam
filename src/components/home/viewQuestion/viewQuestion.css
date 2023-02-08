@@ -1,0 +1,3 @@
+#view-question .question{
+   grid-template-rows: 1fr max-content;
+}

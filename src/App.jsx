@@ -10,7 +10,7 @@ import { AskQuestion } from '@/components/home/askQuestion/AskQuestion';
 import { PostsProvider } from "@/contexts/PostsProvider"
 import { EditPost } from "@/components/home/manipulation/EditPost"
 import { DeletePost } from '@/components/home/manipulation/DeletePost';
-import { ViewQuestion } from '@/components/home/renderQuestions/viewQuestion/ViewQuestion';
+import { ViewQuestion } from '@/components/home/viewQuestion/ViewQuestion';
 
 function App() {
 
