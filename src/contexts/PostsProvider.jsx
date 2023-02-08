@@ -34,11 +34,15 @@ export const PostsProvider = ({ children }) => {
 		setPosts(current => [...current, postObject]);
 	}
 
-	const editPost = async (postObject, id) =>{
-		await new Fetcher(DATABASE_URL+POSTS_ROUTE, id).put(postObject);
+	const editPost = async (postObject, postId) =>{
+		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
 
-      const parsedPosts = posts.map(post => post.id === id ? postObject : post);
+      const parsedPosts = posts.map(post => post.id === postId ? postObject : post);
       setPosts(parsedPosts);
+	}
+
+	const getPostById = (postId) =>{
+		return posts.find(post => post.id === postId);
 	}
 
 	useEffect(()=>{
@@ -49,7 +53,7 @@ export const PostsProvider = ({ children }) => {
 		<PostsContext.Provider value={{
 			posts, setPosts,
 			fetchPosts, addPost,
-			editPost
+			editPost, getPostById
 		}}>
 			{children}
 		</PostsContext.Provider>
