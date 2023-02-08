@@ -39,7 +39,7 @@ export const UserProvider = ({ children }) => {
       })
    }
 
-   const getUserById = async (userId) =>{
+   const getUserById = (userId) =>{
       const matchingUser = users.find(user => user.id === userId);
       return matchingUser;
    }

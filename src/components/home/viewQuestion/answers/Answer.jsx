@@ -3,27 +3,19 @@ import { UserContext } from '@/contexts/UserProvider';
 import { Link } from 'react-router-dom';
 import { AnswerManipulation } from './manipulation/AnswerManipulation';
 
-export const Answer = ({ data }) => {
+export const Answer = ({ answerObject }) => {
 
-   const { content, ownerId } = data;
+   const { content, ownerId } = answerObject;
    const { getUserById } = useContext(UserContext);
-   const [ownerDetails, setOwnerDetails] = useState(null);
+   const ownerDetails = getUserById(ownerId);
 
-
-   const getOwnerDetails = async () =>{
-      setOwnerDetails( await getUserById(ownerId) );
-   }
-
-   useEffect(()=>{
-      getOwnerDetails();
-   }, [])
 
    return (
       <div className='answer'>
          {ownerDetails &&
             <>
             <div className="content-wrapper">
-               <AnswerManipulation answerObject={data} />
+               <AnswerManipulation answerObject={answerObject} />
                <p className='content'>{content}</p>
             </div>
 

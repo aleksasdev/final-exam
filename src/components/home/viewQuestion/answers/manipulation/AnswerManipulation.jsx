@@ -25,7 +25,7 @@ export const AnswerManipulation = ({ answerObject }) => {
          <svg 
             className="delete" 
             onClick={doDeletion}
-            enable-background="new 0 0 128 128" height="128px" id="Layer_1" version="1.1" viewBox="0 0 128 128" width="128px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M100,16h-8c0-8.836-7.164-16-16-16H52c-8.836,0-16,7.164-16,16h-8c-8.836,0-16,7.164-16,16v16    l16.188,73.734C29,125.398,32.25,128,36,128h56c3.75,0,7-2.602,7.813-6.266L116,48V32C116,23.164,108.836,16,100,16z M92,120H36    L20,48h88L92,120z M108,40H20v-8c0-4.414,3.586-8,8-8h16v-8c0-4.414,3.586-8,8-8h24c4.414,0,8,3.586,8,8v8h16c4.414,0,8,3.586,8,8    V40z M52,24h24v-8H52V24z" />
+            enableBackground="new 0 0 128 128" height="128px" id="Layer_1" version="1.1" viewBox="0 0 128 128" width="128px" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><g><g><path d="M100,16h-8c0-8.836-7.164-16-16-16H52c-8.836,0-16,7.164-16,16h-8c-8.836,0-16,7.164-16,16v16    l16.188,73.734C29,125.398,32.25,128,36,128h56c3.75,0,7-2.602,7.813-6.266L116,48V32C116,23.164,108.836,16,100,16z M92,120H36    L20,48h88L92,120z M108,40H20v-8c0-4.414,3.586-8,8-8h16v-8c0-4.414,3.586-8,8-8h24c4.414,0,8,3.586,8,8v8h16c4.414,0,8,3.586,8,8    V40z M52,24h24v-8H52V24z" />
          </g></g></svg>
       </div>
    )

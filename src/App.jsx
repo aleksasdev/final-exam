@@ -12,7 +12,6 @@ import { EditPost } from "@/components/home/manipulation/EditPost"
 import { DeletePost } from '@/components/home/manipulation/DeletePost';
 import { ViewQuestion } from '@/components/home/viewQuestion/ViewQuestion';
 import { EditAnswer } from '@/components/home/viewQuestion/answers/manipulation/EditAnswer';
-import { DeleteAnswer } from '@/components/home/viewQuestion/answers/manipulation/DeleteAnswer';
 
 function App() {
 

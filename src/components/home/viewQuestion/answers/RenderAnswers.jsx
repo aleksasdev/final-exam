@@ -12,7 +12,7 @@ export const RenderAnswers = ({ postId }) => {
          {answers.map(answer => {
             if(answer.postId !== postId) return;
 
-            return <Answer data={answer} key={nanoid()} /> 
+            return <Answer answerObject={answer} key={nanoid()} /> 
          })}
       </div>
    )

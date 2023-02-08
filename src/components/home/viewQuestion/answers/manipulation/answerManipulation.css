@@ -1,12 +1,43 @@
-.manipulation-wrapper{
+.answer .manipulation-wrapper{
    display: flex;
    gap: 0.4rem;
 }
-.manipulation-wrapper svg{
+.answer .manipulation-wrapper svg{
    width: 1.3rem;
    height: auto;
    fill: var(--color-text);
 }
-.manipulation-wrapper .delete{
+.answer .manipulation-wrapper .delete{
    fill: var(--color-button-delete);
+}
+
+/* Edit */
+.edit-answer-form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.5rem;
+}
+.edit-answer-form .buttons-wrapper{
+   display: flex;
+   gap: 1rem;
+}
+.edit-answer-form .buttons-wrapper .cancel{
+   background-color: var(--color-button-delete);
+}
+.edit-answer-form textarea{
+   width: 100%;
+   max-width: 100%;
+}
+
+.edit-answer-form .owner-wrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.edit-answer-form .owner-wrapper img{
+   border-radius: 50%;
+   width: 3rem;
+   height: auto;
+   object-fit: cover;
 }

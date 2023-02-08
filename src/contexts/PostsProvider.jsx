@@ -81,6 +81,18 @@ export const PostsProvider = ({ children }) => {
 		setAnswers(filteredAnswers);
 	}
 
+	const editAnswer = async (answerObject)=>{
+		const answerId = answerObject.id;
+		await new Fetcher(DATABASE_URL+ANSWERS_ROUTE, answerId).put(answerObject);
+
+      const parsedAnswers = answers.map(answer => answer.id === answerId ? answerObject : answer);
+      setAnswers(parsedAnswers);
+	}
+
+	const getAnswerById = (answerId) =>{
+		return answers.find(answer => answer.id === answerId);
+	}
+
 	useEffect(()=>{
 		fetchPosts();
 		fetchAnswers();
@@ -90,8 +102,9 @@ export const PostsProvider = ({ children }) => {
 		<PostsContext.Provider value={{
 			posts, setPosts,
 			answers, setAnswers,
-			addPost,
 			addAnswer, deleteAnswer,
+			editAnswer, getAnswerById,
+			addPost,
 			editPost, getPostById
 		}}>
 			{children}
