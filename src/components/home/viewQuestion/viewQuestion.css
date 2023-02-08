@@ -5,7 +5,7 @@
 }
 
 #view-question .question{
-   grid-template-rows: 1fr max-content;
+   grid-template-rows: max-content / repeat(2, max-content);
 }
 
 #view-question .answer-form{

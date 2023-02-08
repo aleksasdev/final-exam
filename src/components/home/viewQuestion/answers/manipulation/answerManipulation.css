@@ -1,0 +1,12 @@
+.manipulation-wrapper{
+   display: flex;
+   gap: 0.4rem;
+}
+.manipulation-wrapper svg{
+   width: 1.3rem;
+   height: auto;
+   fill: var(--color-text);
+}
+.manipulation-wrapper .delete{
+   fill: var(--color-button-delete);
+}

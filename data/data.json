@@ -12,8 +12,8 @@
     {
       "id": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "title": "Nicdsfdsfdsfffff",
-      "content": "a",
+      "title": "Cool post",
+      "content": "It's edited!",
       "rating": 0,
       "likedBy": [],
       "dislikedBy": []
@@ -41,6 +41,41 @@
       "postId": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "sdfsdfsdf",
+      "isEdited": false
+    },
+    {
+      "id": "A9ajvUe1nUquFBcMR8Uv_",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "fdgdfg",
+      "isEdited": false
+    },
+    {
+      "id": "2HP0AIA5IIdhUvMQlZpP0",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Cool comment!",
+      "isEdited": false
+    },
+    {
+      "id": "UIEgY9JB0-qd1I70MWbdm",
+      "postId": "6_K8QfcRWTYRMbjKp3BIC",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Another cool comment on another question!",
+      "isEdited": false
+    },
+    {
+      "id": "CXehcIZSvRsqMKj0KknhZ",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "FsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdfFsdafsdf",
+      "isEdited": false
+    },
+    {
+      "id": "IDTyuK1Qrcb0-boQUYWIy",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "sdfsdf",
       "isEdited": false
     }
   ]
