@@ -34,6 +34,13 @@ export const PostsProvider = ({ children }) => {
 		setPosts(current => [...current, postObject]);
 	}
 
+	const editPost = async (postObject, id) =>{
+		await new Fetcher(DATABASE_URL+POSTS_ROUTE, id).put(postObject);
+
+      const parsedPosts = posts.map(post => post.id === id ? postObject : post);
+      setPosts(parsedPosts);
+	}
+
 	useEffect(()=>{
 		fetchPosts();
 	}, [])
@@ -41,7 +48,8 @@ export const PostsProvider = ({ children }) => {
 	return (
 		<PostsContext.Provider value={{
 			posts, setPosts,
-			fetchPosts, addPost
+			fetchPosts, addPost,
+			editPost
 		}}>
 			{children}
 		</PostsContext.Provider>

@@ -8,7 +8,7 @@ import { DATABASE_URL, POSTS_ROUTE } from '@/constants/general';
 export const EditPost = () => {
 
    const { id } = useParams();
-   const { posts, setPosts } = useContext(PostsContext);
+   const { posts, editPost } = useContext(PostsContext);
    const navigator = useNavigate();
 
    const [postData, setPostData] = useState(null);
@@ -30,10 +30,7 @@ export const EditPost = () => {
    const doFinishEditing = async (e) =>{
       e.preventDefault();
 
-      await new Fetcher(DATABASE_URL+POSTS_ROUTE, id).put(postData);
-
-      const parsedPosts = posts.map(post => post.id === id ? postData : post);
-      setPosts(parsedPosts);
+      await editPost(postData, id);
 
       navigator("/");
    }
