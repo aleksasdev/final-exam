@@ -4,12 +4,13 @@ import { PostsContext } from '@/contexts/PostsProvider';
 export const AnswerForm = ({ postObject }) => {
 
    const { addAnswer } = useContext(PostsContext);
+   const { id } = postObject;
 
    const doAnswer = (e) =>{
       e.preventDefault();
 
       const [answer] = e.target.elements;
-      addAnswer(answer.value, postObject);
+      addAnswer(answer.value, id);
       e.target.reset();
    }
 

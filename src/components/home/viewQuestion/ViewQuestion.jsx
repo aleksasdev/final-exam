@@ -26,7 +26,7 @@ export const ViewQuestion = () => {
          {postData &&
             <>
             <Question data={postData} />
-            <RenderAnswers postObject={postData} />
+            <RenderAnswers postId={id} />
             <AnswerForm postObject={postData} />
             </>
          }
