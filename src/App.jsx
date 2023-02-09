@@ -8,7 +8,7 @@ import { Register } from '@/components/authentication/Register';
 import { Logout } from '@/components/authentication/Logout';
 import { AskQuestion } from '@/components/home/askQuestion/AskQuestion';
 import { PostsProvider } from "@/contexts/PostsProvider"
-import { EditPost } from "@/components/home/manipulation/EditPost"
+import { EditPost } from "@/components/home/renderQuestions/manipulation/EditPost"
 import { ViewQuestion } from '@/components/home/viewQuestion/ViewQuestion';
 import { EditAnswer } from '@/components/home/viewQuestion/answers/manipulation/EditAnswer';
 

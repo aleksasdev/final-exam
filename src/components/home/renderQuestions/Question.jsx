@@ -1,6 +1,6 @@
 import { UserContext } from '@/contexts/UserProvider';
 import React, { useContext, useEffect, useState } from 'react'
-import { Manipulation } from '../manipulation/Manipulation';
+import { Manipulation } from './manipulation/Manipulation';
 import { useNavigate } from 'react-router';
 
 export const Question = ({ data }) => {
