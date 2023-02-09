@@ -22,9 +22,10 @@
       "title": "Cool post",
       "content": "It's edited!",
       "rating": 0,
-      "likedBy": [],
+      "likedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
+      ],
       "dislikedBy": [
-        "bZSoVxjifxjeN_r2apLd9",
         "aOZSXF27bvPG3LHnvLfu8"
       ],
       "isEdited": true
@@ -42,6 +43,17 @@
         "bZSoVxjifxjeN_r2apLd9"
       ],
       "isEdited": true
+    },
+    {
+      "id": "nRGVazdPa6mDpIM6IrMoR",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "title": "Hello",
+      "content": "Hellooo!",
+      "rating": 0,
+      "isEdited": true,
+      "likedBy": [],
+      "dislikedBy": [],
+      "answers": []
     }
   ],
   "answers": [
@@ -56,8 +68,8 @@
       "id": "IBDN_U-D0PjpnvuMKmXeK",
       "postId": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "VERY COOl",
-      "isEdited": false
+      "content": "VERY COOldsfsdfsdfdsfdsf",
+      "isEdited": true
     },
     {
       "id": "016I5zjqvnr70dwjxOEUX",

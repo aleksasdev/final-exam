@@ -1,6 +1,7 @@
 .answer .manipulation-wrapper{
    display: flex;
-   gap: 0.4rem;
+   gap: 0.3rem;
+   align-items: flex-start;
 }
 .answer .manipulation-wrapper svg{
    width: 1.3rem;

@@ -21,6 +21,7 @@ export const EditAnswer = () => {
 
    const doFinish = async () =>{
       answerObject.content = value;
+      answerObject.isEdited = true;
       await editAnswer(answerObject);
       navigate(-1);
    }

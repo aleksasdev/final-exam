@@ -22,7 +22,7 @@ export const Question = ({ data }) => {
 				<p className="body">{content}</p>
 			</div>
 
-			<Manipulation ownerId={ownerId} postId={id} />
+			<Manipulation postId={id} />
 			<Rating postId={id} />
 
 			<span className="avatar-wrapper">
