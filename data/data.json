@@ -22,8 +22,13 @@
       "title": "Cool post",
       "content": "It's edited!",
       "rating": 0,
-      "likedBy": [],
-      "dislikedBy": []
+      "likedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
+      ],
+      "isEdited": true
     },
     {
       "id": "6_K8QfcRWTYRMbjKp3BIC",
@@ -31,8 +36,13 @@
       "title": "Very long question",
       "content": "AJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJA",
       "rating": 0,
-      "likedBy": [],
-      "dislikedBy": []
+      "likedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
+      ],
+      "isEdited": true
     }
   ],
   "answers": [

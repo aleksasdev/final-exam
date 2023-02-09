@@ -2,6 +2,7 @@ import { UserContext } from '@/contexts/UserProvider';
 import React, { useContext, useEffect, useState } from 'react'
 import { Manipulation } from './manipulation/Manipulation';
 import { useNavigate } from 'react-router';
+import { Rating } from './Rating';
 
 export const Question = ({ data }) => {
 
@@ -31,6 +32,7 @@ export const Question = ({ data }) => {
 			</div>
 
 			<Manipulation ownerId={ownerId} postId={id} />
+			<Rating postId={id} />
 
 			<span className="avatar-wrapper">
 				<img src={ownersDetails?.avatarUrl} alt="" />

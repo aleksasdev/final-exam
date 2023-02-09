@@ -50,3 +50,18 @@
 .question .manipulation-container{
    grid-row: 1;
 }
+
+.question .rating-container{
+   align-self: flex-end;
+   display: flex;
+   gap: 0.2rem;
+}
+.question .rating-container svg{
+   width: 2rem;
+   height: 2rem;
+   fill: var(--color-text);
+}
+.question .rating-container span{
+   display: flex;
+   align-items: center;
+}
