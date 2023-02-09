@@ -59,7 +59,6 @@
 .question .rating-container svg{
    width: 2rem;
    height: 2rem;
-   fill: var(--color-text);
 }
 .question .rating-container span{
    display: flex;
