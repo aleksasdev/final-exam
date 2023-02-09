@@ -7,7 +7,7 @@ import { Rating } from './Rating';
 export const Question = ({ data }) => {
 
 	const { getUserById } = useContext(UserContext);
-	const { title, content, id, ownerId } = data;
+	const { title, content, id, ownerId, isEdited } = data;
 	const [ownersDetails, setOwnersDetails] = useState({});
 	const navigator = useNavigate();
 

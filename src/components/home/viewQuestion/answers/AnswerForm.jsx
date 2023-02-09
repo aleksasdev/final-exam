@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
 import { PostsContext } from '@/contexts/PostsProvider';
+import { UserContext } from './../../../../contexts/UserProvider';
 
 export const AnswerForm = ({ postObject }) => {
 
    const { addAnswer } = useContext(PostsContext);
    const { id } = postObject;
+   const { user } = useContext(UserContext);
 
    const doAnswer = (e) =>{
       e.preventDefault();
@@ -15,9 +17,16 @@ export const AnswerForm = ({ postObject }) => {
    }
 
    return (
-      <form className='answer-form' onSubmit={doAnswer} >
-         <textarea className="input-style" name="answer" placeholder="Type your answer here..." cols="30" rows="10" required></textarea>
-         <input type="submit" value="Answer" className="button-style" />
-      </form>
+      <>
+      {user
+      ?
+         <form className='answer-form' onSubmit={doAnswer} >
+            <textarea className="input-style" name="answer" placeholder="Type your answer here..." cols="30" rows="10" required></textarea>
+            <input type="submit" value="Answer" className="button-style" />
+         </form>
+      :
+         <p>Login to post answers</p>
+      }
+      </>
   )
 }

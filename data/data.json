@@ -22,11 +22,10 @@
       "title": "Cool post",
       "content": "It's edited!",
       "rating": 0,
-      "likedBy": [
-        "aOZSXF27bvPG3LHnvLfu8"
-      ],
+      "likedBy": [],
       "dislikedBy": [
-        "bZSoVxjifxjeN_r2apLd9"
+        "bZSoVxjifxjeN_r2apLd9",
+        "aOZSXF27bvPG3LHnvLfu8"
       ],
       "isEdited": true
     },
@@ -36,10 +35,11 @@
       "title": "Very long question",
       "content": "AJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJA",
       "rating": 0,
-      "likedBy": [],
-      "dislikedBy": [
-        "bZSoVxjifxjeN_r2apLd9",
+      "likedBy": [
         "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
       ],
       "isEdited": true
     }
@@ -57,6 +57,13 @@
       "postId": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "VERY COOl",
+      "isEdited": false
+    },
+    {
+      "id": "016I5zjqvnr70dwjxOEUX",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "gdfgfff",
       "isEdited": false
     }
   ]
