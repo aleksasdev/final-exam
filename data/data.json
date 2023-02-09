@@ -33,17 +33,6 @@
       "rating": 0,
       "likedBy": [],
       "dislikedBy": []
-    },
-    {
-      "id": "TzIcptpf9VnEyXUttzn28",
-      "ownerId": "bZSoVxjifxjeN_r2apLd9",
-      "title": "Hello",
-      "content": "Hello.",
-      "rating": 0,
-      "isEdited": false,
-      "likedBy": [],
-      "dislikedBy": [],
-      "answers": []
     }
   ],
   "answers": [
@@ -59,13 +48,6 @@
       "postId": "UsU9xiIjtnnyyYaYwsEDh",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "VERY COOl",
-      "isEdited": false
-    },
-    {
-      "id": "35deKQTRgQLnHR8d0jAFN",
-      "postId": "UsU9xiIjtnnyyYaYwsEDh",
-      "ownerId": "bZSoVxjifxjeN_r2apLd9",
-      "content": "Yo.",
       "isEdited": false
     }
   ]

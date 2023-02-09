@@ -9,7 +9,6 @@ import { Logout } from '@/components/authentication/Logout';
 import { AskQuestion } from '@/components/home/askQuestion/AskQuestion';
 import { PostsProvider } from "@/contexts/PostsProvider"
 import { EditPost } from "@/components/home/manipulation/EditPost"
-import { DeletePost } from '@/components/home/manipulation/DeletePost';
 import { ViewQuestion } from '@/components/home/viewQuestion/ViewQuestion';
 import { EditAnswer } from '@/components/home/viewQuestion/answers/manipulation/EditAnswer';
 
@@ -24,7 +23,6 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/new-question" element={<AskQuestion />} />
                   <Route path="/edit-question/:id" element={<EditPost />} />
-                  <Route path="/delete-question/:id" element={<DeletePost />} />
                   <Route path="/view-question/:id" element={<ViewQuestion />} />
 
                   <Route path="/view-question/:id/edit-answer/:id" element={<EditAnswer />} />

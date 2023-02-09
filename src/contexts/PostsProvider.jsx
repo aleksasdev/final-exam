@@ -46,10 +46,19 @@ export const PostsProvider = ({ children }) => {
 
 	const editPost = async (postObject) =>{
 		const postId = postObject.id;
+		postObject.isEdited = true;
+
 		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
 
       const parsedPosts = posts.map(post => post.id === postId ? postObject : post);
       setPosts(parsedPosts);
+	}
+
+	const deletePost = async (postId) =>{
+		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).delete();
+
+		const filteredPosts = posts.filter(post => post.id !== postId);
+		setPosts(filteredPosts);
 	}
 
 	const getPostById = (postId) =>{
@@ -104,7 +113,7 @@ export const PostsProvider = ({ children }) => {
 			answers, setAnswers,
 			addAnswer, deleteAnswer,
 			editAnswer, getAnswerById,
-			addPost,
+			addPost, deletePost,
 			editPost, getPostById
 		}}>
 			{children}
