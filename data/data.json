@@ -8,14 +8,75 @@
       "avatarUrl": "https://i1.sndcdn.com/avatars-000737077780-co96jx-t500x500.jpg"
     },
     {
-      "id": "2Jyvop5qJHTXBJ7eUgCif",
-      "email": "2@gmail.com",
-      "username": "dsfdsf",
-      "password": "dsfsdfdsf",
-      "avatarUrl": "https://i1.sndcdn.com/avatars-000737077780-co96jx-t500x500.jpg"
+      "id": "bZSoVxjifxjeN_r2apLd9",
+      "email": "foureyes@gmail.com",
+      "username": "Mister Four Eyes",
+      "password": "supadupa2",
+      "avatarUrl": "https://64.media.tumblr.com/74eab5e4fa0b82d45e27c9bcbf01dda2/tumblr_ollo9uQKW61vr9uv5o1_500.gif"
     }
   ],
   "posts": [
-    
+    {
+      "id": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "title": "Cool post",
+      "content": "It's edited!",
+      "rating": 0,
+      "likedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
+      ],
+      "dislikedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "isEdited": true
+    },
+    {
+      "id": "6_K8QfcRWTYRMbjKp3BIC",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "title": "Very long question",
+      "content": "AJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJA",
+      "rating": 0,
+      "likedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [
+        "bZSoVxjifxjeN_r2apLd9"
+      ],
+      "isEdited": true
+    },
+    {
+      "id": "nRGVazdPa6mDpIM6IrMoR",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "title": "Hello",
+      "content": "Hellooo!",
+      "rating": 0,
+      "isEdited": true,
+      "likedBy": [],
+      "dislikedBy": [],
+      "answers": []
+    }
+  ],
+  "answers": [
+    {
+      "id": "kNqnguEqEjeo07cAd96Br",
+      "postId": "6_K8QfcRWTYRMbjKp3BIC",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Cool comment ayo!!",
+      "isEdited": false
+    },
+    {
+      "id": "IBDN_U-D0PjpnvuMKmXeK",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "VERY COOldsfsdfsdfdsfdsf",
+      "isEdited": true
+    },
+    {
+      "id": "016I5zjqvnr70dwjxOEUX",
+      "postId": "UsU9xiIjtnnyyYaYwsEDh",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "gdfgfff",
+      "isEdited": false
+    }
   ]
 }

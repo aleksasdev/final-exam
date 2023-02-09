@@ -3,6 +3,7 @@ import './home.css'
 import { Filter } from './Filter';
 import { UserContext } from '@/contexts/UserProvider';
 import { Link } from 'react-router-dom';
+import { RenderQuestions } from './renderQuestions/RenderQuestions';
 
 export const Home = () => {
 
@@ -23,6 +24,8 @@ export const Home = () => {
             <p>Questions count</p>
             <Filter />
          </div>
+
+         <RenderQuestions />
       </section>
    )
 }

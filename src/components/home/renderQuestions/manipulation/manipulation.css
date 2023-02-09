@@ -1,0 +1,27 @@
+#questions-container .manipulation-container{
+   grid-column: 2;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   gap: 0.5rem;
+}
+#questions-container .manipulation-container svg{
+   width: 1.4rem;
+   height: auto;
+   fill: var(--color-text);
+}
+#questions-container .manipulation-container .delete-button{
+   fill: var(--color-button-delete);
+}
+
+#edit-post form{
+   display: grid;
+   gap: 0.5rem;
+   margin-top: 1rem;
+}
+#edit-post form input[type="submit"]{
+   justify-self: center;
+}
+#edit-post .question{
+   grid-template-rows: 1fr max-content;
+}

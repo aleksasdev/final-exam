@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router';
 
 export const Register = () => {
 
-   const { loginUser } = useContext(UserContext);
+   const { loginUser, setUsers } = useContext(UserContext);
    const navigator = useNavigate();
 
    const doRegistration = async (values) =>{
@@ -44,6 +44,8 @@ export const Register = () => {
       }
 
       await new Fetcher(DATABASE_URL+USERS_ROUTE).post(userObject);
+      
+      setUsers(current => [...current, userObject]);
       loginUser(userObject);
       navigator("/");
    }
