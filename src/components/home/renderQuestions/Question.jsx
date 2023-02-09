@@ -8,21 +8,12 @@ export const Question = ({ data }) => {
 
 	const { getUserById } = useContext(UserContext);
 	const { title, content, id, ownerId, isEdited } = data;
-	const [ownersDetails, setOwnersDetails] = useState({});
+	const ownerDetails = getUserById(ownerId);
 	const navigator = useNavigate();
-
-	const getOwnerDetails = async () =>{
-		const ownersDetails = await getUserById(ownerId);
-		setOwnersDetails(ownersDetails);
-	}
 
 	const gotoPost = () =>{
 		navigator(`/view-question/${id}`);
 	}
-
-	useEffect(()=>{
-		getOwnerDetails();
-	}, [])
 
 	return (
 		<div className='question'>
@@ -35,9 +26,9 @@ export const Question = ({ data }) => {
 			<Rating postId={id} />
 
 			<span className="avatar-wrapper">
-				<img src={ownersDetails?.avatarUrl} alt="" />
+				<img src={ownerDetails?.avatarUrl} alt="" />
 				<p className='asked-by'>Asked By</p>
-				<p className='owner-username'>{ownersDetails?.username}</p>
+				<p className='owner-username'>{ownerDetails?.username}</p>
 			</span>
 		</div>
 	)
