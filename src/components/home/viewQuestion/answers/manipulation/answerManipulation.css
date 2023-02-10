@@ -7,9 +7,16 @@
    width: 1.3rem;
    height: auto;
    fill: var(--color-text);
+   cursor: pointer;
 }
 .answer .manipulation-wrapper .delete{
    fill: var(--color-button-delete);
+}
+.answer .manipulation-wrapper .delete:hover{
+   fill: var(--color-button-delete-shade);
+}
+.answer .manipulation-wrapper .edit:hover{
+   fill: var(--color-text-shade);
 }
 
 /* Edit */
