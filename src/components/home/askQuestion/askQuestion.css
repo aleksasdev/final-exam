@@ -1,7 +1,14 @@
+#ask-question{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 #ask-question form{
    display: grid;
    padding: 1rem;
    gap: 0.5rem;
+   width: var(--global-width);
 }
 #ask-question textarea{
    max-width: 100%;
