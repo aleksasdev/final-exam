@@ -37,36 +37,3 @@ section{
    flex: 1;
    padding: 1rem 0.8rem;
 }
-
-@media (min-width: 700px){
-   section{
-      padding: 2rem 5rem;
-   }
-   *{
-      font-size: 17.5px;
-   }
-}
-
-@media (min-width: 1000px){
-   section{
-      padding: 2rem 12rem;
-   }
-}
-
-@media (min-width: 1300px){
-   section{
-      padding: 2rem 22rem;
-   }
-}
-
-@media (min-width: 1600px){
-   section{
-      padding: 2rem 30rem;
-   }
-}
-
-@media (min-width: 1900px){
-   section{
-      padding: 2rem 42rem;
-   }
-}

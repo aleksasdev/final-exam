@@ -4,6 +4,7 @@
    align-items: center;
    padding: 0.7rem;
    gap: 1rem;
+   width: var(--global-width);
 }
 
 #questions .ask-question-button{

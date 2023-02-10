@@ -1,7 +1,7 @@
 #view-question{
    display: flex;
    flex-direction: column;
-   gap: 1rem;
+   align-items: center;
 }
 
 #view-question .question .manipulation-container{
@@ -13,20 +13,22 @@
    flex-direction: column;
    align-items: center;
    gap: 0.5rem;
+   width: var(--global-width);
 }
 #view-question .answer-form textarea{
-   width: 100%;
-   max-width: 100%;
+   border-radius: 0%;
 }
 
 /* Answer */
 .answers-container{
    display: flex;
    flex-direction: column;
-   gap: 0.2rem;
    background-color: var(--color-primary);
    padding: 0.2rem;
-   border-radius: 5px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   width: var(--global-width);
+   margin-top: 3rem;
 }
 .answer{
    display: grid;

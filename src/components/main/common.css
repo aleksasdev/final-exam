@@ -21,6 +21,8 @@
 
    --color-text: white;
    --color-text-shade: #dcdbde;
+
+   --global-width: 100%;
 }
 
 .button-style{
@@ -44,7 +46,18 @@
    border: none;
    padding: 0.6rem;
    border-radius: 5px;
+   width: var(--global-width);
+   max-width: var(--global-width);
 }
 .input-style:focus{
    outline: none;
+}
+
+@media (min-width: 750px){
+   *{
+      font-size: 17.5px;
+   }
+   :root{
+      --global-width: 40rem;
+   }
 }
