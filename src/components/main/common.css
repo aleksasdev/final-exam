@@ -46,6 +46,8 @@
    border: none;
    padding: 0.6rem;
    border-radius: 5px;
+   width: var(--global-width);
+   max-width: var(--global-width);
 }
 .input-style:focus{
    outline: none;

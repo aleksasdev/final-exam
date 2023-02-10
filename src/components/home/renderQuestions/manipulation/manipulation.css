@@ -21,13 +21,23 @@
    fill: var(--color-text-shade);
 }
 
+
+#edit-post{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 #edit-post form{
    display: grid;
    gap: 0.5rem;
-   margin-top: 1rem;
+   margin-top: 2rem;
 }
 #edit-post form input[type="submit"]{
    justify-self: center;
+}
+
+#edit-post .question{
+   border: 1px solid var(--color-text-shade);
 }
 
 #edit-post .manipulation-container{
