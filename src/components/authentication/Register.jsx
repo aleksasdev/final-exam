@@ -51,7 +51,7 @@ export const Register = () => {
    }
 
    return (
-      <section>
+      <section id="authentication">
          <ValidationForm onCompleted={doRegistration} label="Register" >
             <p>Email</p>
             <ValidInput name="email" requirements={[HAVE_VALID_EMAIL]} />

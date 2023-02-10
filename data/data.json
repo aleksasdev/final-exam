@@ -51,7 +51,9 @@
       "rating": 0,
       "isEdited": true,
       "likedBy": [],
-      "dislikedBy": [],
+      "dislikedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
       "answers": []
     }
   ],
@@ -111,6 +113,13 @@
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "asdsad",
       "isEdited": false
+    },
+    {
+      "id": "dcjixmTZamOC1qkgL_MjU",
+      "postId": "nRGVazdPa6mDpIM6IrMoR",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Yo..",
+      "isEdited": true
     }
   ]
 }

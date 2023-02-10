@@ -41,7 +41,7 @@ export const Login = () => {
    }
 
    return (
-      <section>
+      <section id="authentication">
          <ValidationForm onCompleted={doLogin} label="Login" >
             <p>Email</p>
             <ValidInput name="email" requirements={[HAVE_VALID_EMAIL]} />
