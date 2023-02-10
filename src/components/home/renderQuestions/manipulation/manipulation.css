@@ -25,3 +25,7 @@
 #edit-post .question{
    grid-template-rows: 1fr max-content;
 }
+
+#edit-post .manipulation-container{
+   display: none;
+}
