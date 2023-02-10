@@ -17,11 +17,13 @@ export const PostsProvider = ({ children }) => {
 	const fetchPosts = async () =>{
 		const allPosts = await new Fetcher(DATABASE_URL+POSTS_ROUTE).get();
 		setPosts(allPosts);
+		return allPosts;
 	}
 
 	const fetchAnswers = async () =>{
 		const allAnswers = await new Fetcher(DATABASE_URL+ANSWERS_ROUTE).get();
 		setAnswers(allAnswers);
+		return allAnswers;
 	}
 
 	/*
@@ -114,7 +116,8 @@ export const PostsProvider = ({ children }) => {
 			addAnswer, deleteAnswer,
 			editAnswer, getAnswerById,
 			addPost, deletePost,
-			editPost, getPostById
+			editPost, getPostById,
+			fetchPosts
 		}}>
 			{children}
 		</PostsContext.Provider>
