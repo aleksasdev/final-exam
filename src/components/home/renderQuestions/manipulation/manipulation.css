@@ -31,6 +31,7 @@
    display: grid;
    gap: 0.5rem;
    margin-top: 2rem;
+   width: var(--global-width);
 }
 #edit-post form input[type="submit"]{
    justify-self: center;

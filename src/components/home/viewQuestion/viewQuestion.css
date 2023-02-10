@@ -14,6 +14,7 @@
    flex-direction: column;
    align-items: center;
    gap: 0.5rem;
+   width: var(--global-width);
 }
 
 /* Answer */
