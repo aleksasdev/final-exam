@@ -9,9 +9,16 @@
    width: 1.4rem;
    height: auto;
    fill: var(--color-text);
+   cursor: pointer;
 }
 #questions-container .manipulation-container .delete-button{
    fill: var(--color-button-delete);
+}
+#questions-container .manipulation-container .delete-button:hover{
+   fill: var(--color-button-delete-shade);
+}
+#questions-container .manipulation-container .edit-button:hover{
+   fill: var(--color-text-shade);
 }
 
 #edit-post form{
@@ -22,6 +29,7 @@
 #edit-post form input[type="submit"]{
    justify-self: center;
 }
-#edit-post .question{
-   grid-template-rows: 1fr max-content;
+
+#edit-post .manipulation-container{
+   display: none;
 }
