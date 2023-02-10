@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { PostsContext } from '@/contexts/PostsProvider';
 
 export const Filter = () => {
@@ -29,6 +29,10 @@ export const Filter = () => {
       if(choice === "answered") filterByAnswers("answered");
       if(choice === "unanswered") filterByAnswers("unanswered");
    }
+
+   useEffect(()=>{
+      fetchPosts();
+   }, [])
 
    return (
       <select className='filter-container input-style' onChange={doFilter} >
