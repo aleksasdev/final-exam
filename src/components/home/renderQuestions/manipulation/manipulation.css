@@ -22,8 +22,9 @@
 #edit-post form input[type="submit"]{
    justify-self: center;
 }
-#edit-post .question{
-   grid-template-rows: 1fr max-content;
+#edit-post .question .content .body{
+   -webkit-line-clamp: unset;
+   line-clamp: unset;
 }
 
 #edit-post .manipulation-container{

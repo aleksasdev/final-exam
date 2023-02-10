@@ -39,14 +39,14 @@ section{
    section{
       padding: 2rem 5rem;
    }
-   html{
-      font-size: 18px;
+   *{
+      font-size: 17.5px;
    }
 }
 
 @media (min-width: 1000px){
    section{
-      padding: 2rem 15rem;
+      padding: 2rem 12rem;
    }
 }
 
@@ -58,7 +58,7 @@ section{
 
 @media (min-width: 1600px){
    section{
-      padding: 2rem 32rem;
+      padding: 2rem 30rem;
    }
 }
 

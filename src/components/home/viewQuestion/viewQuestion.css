@@ -4,8 +4,9 @@
    gap: 1rem;
 }
 
-#view-question .question{
-   grid-template-rows: 1fr;
+#view-question .question .content .body{
+   -webkit-line-clamp: unset;
+   line-clamp: unset;
 }
 #view-question .question .manipulation-container{
    display: none;
