@@ -33,6 +33,10 @@
    text-decoration: none;
    border: none;
    outline: none;
+   cursor: pointer;
+}
+.button-style:hover{
+   background-color: var(--color-button-shade);
 }
 
 .input-style{
