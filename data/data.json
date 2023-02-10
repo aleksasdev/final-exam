@@ -23,11 +23,10 @@
       "content": "It's edited!",
       "rating": 0,
       "likedBy": [
-        "bZSoVxjifxjeN_r2apLd9"
-      ],
-      "dislikedBy": [
+        "bZSoVxjifxjeN_r2apLd9",
         "aOZSXF27bvPG3LHnvLfu8"
       ],
+      "dislikedBy": [],
       "isEdited": true
     },
     {
@@ -62,20 +61,6 @@
       "postId": "6_K8QfcRWTYRMbjKp3BIC",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "content": "Cool comment ayo!!",
-      "isEdited": false
-    },
-    {
-      "id": "IBDN_U-D0PjpnvuMKmXeK",
-      "postId": "UsU9xiIjtnnyyYaYwsEDh",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "VERY COOldsfsdfsdfdsfdsf",
-      "isEdited": true
-    },
-    {
-      "id": "016I5zjqvnr70dwjxOEUX",
-      "postId": "UsU9xiIjtnnyyYaYwsEDh",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "gdfgfff",
       "isEdited": false
     },
     {

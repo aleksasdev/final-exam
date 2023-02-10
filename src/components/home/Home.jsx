@@ -4,10 +4,12 @@ import { Filter } from './Filter';
 import { UserContext } from '@/contexts/UserProvider';
 import { Link } from 'react-router-dom';
 import { RenderQuestions } from './renderQuestions/RenderQuestions';
+import { PostsContext } from './../../contexts/PostsProvider';
 
 export const Home = () => {
 
   const { user } = useContext(UserContext);
+  const { posts } = useContext(PostsContext);
 
    return (
       <section id="questions">
@@ -21,7 +23,7 @@ export const Home = () => {
             :
                <p className='ask-question-button'>Login to ask a question</p>
             }
-            <p>Questions count</p>
+            <p>{posts.length} questions</p>
             <Filter />
          </div>
 
