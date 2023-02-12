@@ -48,7 +48,6 @@ export const PostsProvider = ({ children }) => {
 
 	const editPost = async (postObject) =>{
 		const postId = postObject.id;
-		postObject.isEdited = true;
 
 		await new Fetcher(DATABASE_URL+POSTS_ROUTE, postId).put(postObject);
 

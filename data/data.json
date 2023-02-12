@@ -13,140 +13,50 @@
       "username": "Mister Four Eyes",
       "password": "supadupa2",
       "avatarUrl": "https://64.media.tumblr.com/74eab5e4fa0b82d45e27c9bcbf01dda2/tumblr_ollo9uQKW61vr9uv5o1_500.gif"
+    },
+    {
+      "id": "uk_hTR_3yvNjg444gg10Y",
+      "email": "gramps69@gmail.com",
+      "username": "Gramps69",
+      "password": "grampa222",
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdArwtZM3Gky98tefwUkAmTxS6KLSqI5NFg&usqp=CAU"
     }
   ],
   "posts": [
     {
-      "id": "UsU9xiIjtnnyyYaYwsEDh",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "title": "Cool post",
-      "content": "It's edited!",
+      "id": "jgholXPcCHbh7vhAfWfUO",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "title": "What's the meaning of life? 🤔",
+      "content": "I've been thinking lately, what's the purpose, what are we doing on this planet? Are we here to just merely reproduce and multiply, or is there a bigger meaning, lemme know pls!",
       "rating": 0,
+      "isEdited": true,
       "likedBy": [
         "bZSoVxjifxjeN_r2apLd9",
-        "aOZSXF27bvPG3LHnvLfu8"
+        "uk_hTR_3yvNjg444gg10Y"
       ],
       "dislikedBy": [],
-      "isEdited": true
+      "answers": []
     },
     {
-      "id": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "title": "Very long question",
-      "content": "AJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJAAJAJAJAJAJJA",
-      "rating": 0,
-      "likedBy": [
-        "aOZSXF27bvPG3LHnvLfu8"
-      ],
-      "dislikedBy": [
-        "bZSoVxjifxjeN_r2apLd9"
-      ],
-      "isEdited": true
-    },
-    {
-      "id": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "bZSoVxjifxjeN_r2apLd9",
-      "title": "Hello",
-      "content": "Hellooo!",
+      "id": "l518cjnmjwghplqyAnl5a",
+      "ownerId": "uk_hTR_3yvNjg444gg10Y",
+      "title": "aaaa",
+      "content": "ah",
       "rating": 0,
       "isEdited": true,
       "likedBy": [],
       "dislikedBy": [
-        "aOZSXF27bvPG3LHnvLfu8"
+        "uk_hTR_3yvNjg444gg10Y"
       ],
       "answers": []
     }
   ],
   "answers": [
     {
-      "id": "kNqnguEqEjeo07cAd96Br",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "Cool comment ayo!!dsfsdf",
-      "isEdited": true
-    },
-    {
-      "id": "NtEtgivZ2GPg8At8DT-M7",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "dsfdsf",
-      "isEdited": false
-    },
-    {
-      "id": "Yo2_s1ktaT0EO6QL0K9Yq",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfsdf",
-      "isEdited": false
-    },
-    {
-      "id": "8bCE44IsZVYbKEEeylWTF",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfdsf",
-      "isEdited": false
-    },
-    {
-      "id": "y5S0uf-F3tVl2zJRAGjAW",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfsdf",
-      "isEdited": false
-    },
-    {
-      "id": "I17zXvHfYi6_zrxxJT36w",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfsdf",
-      "isEdited": false
-    },
-    {
-      "id": "zu7cztcpMcDgsrm2-bfej",
-      "postId": "6_K8QfcRWTYRMbjKp3BIC",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdasd",
-      "isEdited": false
-    },
-    {
-      "id": "dcjixmTZamOC1qkgL_MjU",
-      "postId": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "Yo..",
-      "isEdited": true
-    },
-    {
-      "id": "1LMixE1K9TXM1CPodJ5H4",
-      "postId": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "asdsad",
-      "isEdited": false
-    },
-    {
-      "id": "8y75g1aO2droD26RNS1P4",
-      "postId": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfsdf",
-      "isEdited": false
-    },
-    {
-      "id": "Agf09LgPSPT1lF24iTG3F",
-      "postId": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "ayo",
-      "isEdited": false
-    },
-    {
-      "id": "0D9f52pIGwRdJhigkk7z2",
-      "postId": "nRGVazdPa6mDpIM6IrMoR",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "sdfsdf",
-      "isEdited": false
-    },
-    {
-      "id": "X4Fw6i4PX-HcP403WNILM",
-      "postId": "UsU9xiIjtnnyyYaYwsEDh",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "Hi!",
+      "id": "80m9P9nj17B3wx9-4Td2u",
+      "postId": "jgholXPcCHbh7vhAfWfUO",
+      "ownerId": "uk_hTR_3yvNjg444gg10Y",
+      "content": "I can't say for sure, young man, but from what I've experienced... on a second thought, I'm not saying ahahaha!",
       "isEdited": false
     }
   ]

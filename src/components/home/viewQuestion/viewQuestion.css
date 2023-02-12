@@ -38,7 +38,18 @@
    gap: 0.5rem;
    border: 1px solid var(--color-primary-tint);
    padding: 0.5rem;
-   
+}
+
+.answer .header-wrapper{
+   display: grid;
+   grid-template: 1fr / 1fr 1fr;
+}
+.answer .content{
+   word-break: normal;
+}
+.answer .username{
+   color: var(--color-text);
+   justify-self: flex-end;
 }
 
 /* Answer owner */

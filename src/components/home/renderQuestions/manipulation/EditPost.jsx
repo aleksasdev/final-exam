@@ -30,6 +30,7 @@ export const EditPost = () => {
    const doFinishEditing = async (e) =>{
       e.preventDefault();
 
+      postData.isEdited = true;
       await editPost(postData);
 
       navigator("/");

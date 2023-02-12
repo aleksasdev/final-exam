@@ -15,13 +15,15 @@ export const Answer = ({ answerObject }) => {
          {ownerDetails &&
             <>
             <div className="content-wrapper">
-               <AnswerManipulation answerObject={answerObject} />
+               <span className="header-wrapper">
+                  <AnswerManipulation answerObject={answerObject} />
+                  <p className='username'>{ownerDetails.username}</p>
+               </span>
                <p className='content'>{content}</p>
             </div>
 
             <div className="owner-wrapper">
                <img src={ownerDetails.avatarUrl} alt="" />
-               <p className='username'>{ownerDetails.username}</p>
             </div>
 
             </>
