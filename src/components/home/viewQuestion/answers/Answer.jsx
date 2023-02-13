@@ -16,8 +16,8 @@ export const Answer = ({ answerObject }) => {
             <>
             <div className="content-wrapper">
                <span className="header-wrapper">
-                  <AnswerManipulation answerObject={answerObject} />
                   <p className='username'>{ownerDetails.username}</p>
+                  <AnswerManipulation answerObject={answerObject} />
                </span>
                <p className='content'>{content}</p>
             </div>

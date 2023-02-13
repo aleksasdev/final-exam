@@ -54,9 +54,9 @@
       "id": "66dKBAIctmaiwK5K0D-av",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
       "title": "What's your favorite programming language?",
-      "content": "Aenean tincidunt sodales ullamcorper. Pellentesque tincidunt, dolor et aliquet blandit, quam nulla consequat tellus, eu semper risus leo in felis. Nullam id tincidunt magna. Vestibulum at ex venenatis, imperdiet sem et, tempor lacus. Suspendisse a elementum leo. Morbi nisi justo, volutpat at mi nec, consequat commodo est. Vestibulum mollis ipsum sed pharetra ornare. Nam sed quam dignissim, finibus mauris id, gravida ipsum. Nullam tincidunt velit id eros feugiat, tincidunt feugiat sem malesuada. Duis pretium ut eros et maximus. Ut convallis iaculis tortor, eget scelerisque elit luctus vel. Suspendisse fringilla dignissim facilisis. Mauris vitae dictum sapien?",
+      "content": "Aenean tincidunt sodales ullamcorper. Pellentesque tincidunt, dolor et aliquet blandit, quam nulla consequat tellus, eu semper risus leo in felis. \n\nNullam id tincidunt magna. Vestibulum at ex venenatis, imperdiet sem et, tempor lacus. Suspendisse a elementum leo. Morbi nisi justo, volutpat at mi nec, consequat commodo est. \n\nVestibulum mollis ipsum sed pharetra ornare. Nam sed quam dignissim, finibus mauris id, gravida ipsum. Nullam tincidunt velit id eros feugiat, tincidunt feugiat sem malesuada. Duis pretium ut eros et maximus. Ut convallis iaculis tortor, eget scelerisque elit luctus vel. Suspendisse fringilla dignissim facilisis. Mauris vitae dictum sapien?",
       "rating": 0,
-      "isEdited": false,
+      "isEdited": true,
       "likedBy": [
         "aOZSXF27bvPG3LHnvLfu8",
         "uk_hTR_3yvNjg444gg10Y"
@@ -77,8 +77,8 @@
       "id": "81Xh9tUCTCmF-Nb-Zzf_e",
       "postId": "SLJrSUnwJ8m83Mf4dCsPD",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis, massa ut dignissim sodales, nibh neque porttitor erat, imperdiet laoreet nibh augue a orci. Integer orci urna, pellentesque feugiat condimentum in, accumsan eget nulla. In turpis eros, aliquet in diam eu, posuere imperdiet sem. Nam quam risus, placerat eu faucibus.",
-      "isEdited": false
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis, massa ut dignissim sodales, nibh neque porttitor erat, imperdiet laoreet nibh augue a orci. \n\nInteger orci urna, pellentesque feugiat condimentum in, accumsan eget nulla. In turpis eros, aliquet in diam eu, posuere imperdiet sem. Nam quam risus, placerat eu faucibus.",
+      "isEdited": true
     },
     {
       "id": "S0Nwf1dJtpV3hwPNhv2vs",
@@ -92,6 +92,13 @@
       "postId": "66dKBAIctmaiwK5K0D-av",
       "ownerId": "uk_hTR_3yvNjg444gg10Y",
       "content": "Javascript rulez!",
+      "isEdited": false
+    },
+    {
+      "id": "kbx5o5LXnw6aj-wBrV9l-",
+      "postId": "66dKBAIctmaiwK5K0D-av",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "f",
       "isEdited": false
     }
   ]

@@ -41,16 +41,17 @@
 }
 
 .answer .header-wrapper{
-   display: grid;
-   grid-template: 1fr / 1fr 1fr;
+   display: flex;
+   gap: 0.4rem;
 }
 .answer .content{
    word-break: normal;
+   white-space: pre-wrap;
 }
 .answer .username{
    color: var(--color-text);
-   justify-self: flex-end;
-   grid-column: 2;
+   justify-self: flex-start;
+   grid-row: 1;
 }
 
 /* Answer owner */
