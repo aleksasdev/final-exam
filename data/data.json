@@ -20,6 +20,13 @@
       "username": "Gramps69",
       "password": "grampa222",
       "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWdArwtZM3Gky98tefwUkAmTxS6KLSqI5NFg&usqp=CAU"
+    },
+    {
+      "id": "Twb2fd0KEvgwcz5o9vf2y",
+      "email": "testamanas@gmail.com",
+      "username": "fff",
+      "password": "fffffffffffff",
+      "avatarUrl": "https://i.kym-cdn.com/entries/icons/original/000/017/468/16-9.jpg"
     }
   ],
   "posts": [
@@ -32,7 +39,8 @@
       "likedBy": [
         "bZSoVxjifxjeN_r2apLd9",
         "uk_hTR_3yvNjg444gg10Y",
-        "aOZSXF27bvPG3LHnvLfu8"
+        "aOZSXF27bvPG3LHnvLfu8",
+        "Twb2fd0KEvgwcz5o9vf2y"
       ],
       "dislikedBy": [],
       "answers": []
@@ -45,7 +53,8 @@
       "rating": 0,
       "isEdited": false,
       "likedBy": [
-        "aOZSXF27bvPG3LHnvLfu8"
+        "aOZSXF27bvPG3LHnvLfu8",
+        "Twb2fd0KEvgwcz5o9vf2y"
       ],
       "dislikedBy": [],
       "answers": []
@@ -53,14 +62,37 @@
     {
       "id": "66dKBAIctmaiwK5K0D-av",
       "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "title": "What's your favorite programming language?",
-      "content": "Aenean tincidunt sodales ullamcorper. Pellentesque tincidunt, dolor et aliquet blandit, quam nulla consequat tellus, eu semper risus leo in felis. \n\nNullam id tincidunt magna. Vestibulum at ex venenatis, imperdiet sem et, tempor lacus. Suspendisse a elementum leo. Morbi nisi justo, volutpat at mi nec, consequat commodo est. \n\nVestibulum mollis ipsum sed pharetra ornare. Nam sed quam dignissim, finibus mauris id, gravida ipsum. Nullam tincidunt velit id eros feugiat, tincidunt feugiat sem malesuada. Duis pretium ut eros et maximus. Ut convallis iaculis tortor, eget scelerisque elit luctus vel. Suspendisse fringilla dignissim facilisis. Mauris vitae dictum sapien?",
+      "title": "What's your favorite programming language??",
+      "content": "Aenean tincidunt sodales ullamcorper. Pellentesque tincidunt, dolor et aliquet blandit, quam nulla consequat tellus, eu semper risus leo in felis. ffff\n\nNullam id tincidunt magna. Vestibulum at ex venenatis, imperdiet sem et, tempor lacus. Suspendisse a elementum leo. Morbi nisi justo, volutpat at mi nec, consequat commodo est. \n\nVestibulum mollis ipsum sed pharetra ornare. Nam sed quam dignissim, finibus mauris id, gravida ipsum. Nullam tincidunt velit id eros feugiat, tincidunt feugiat sem malesuada. Duis pretium ut eros et maximus. Ut convallis iaculis tortor, eget scelerisque elit luctus vel. Suspendisse fringilla dignissim facilisis. Mauris vitae dictum sapien?",
       "rating": 0,
       "isEdited": true,
       "likedBy": [
         "aOZSXF27bvPG3LHnvLfu8",
-        "uk_hTR_3yvNjg444gg10Y"
+        "uk_hTR_3yvNjg444gg10Y",
+        "Twb2fd0KEvgwcz5o9vf2y"
       ],
+      "dislikedBy": [],
+      "answers": []
+    },
+    {
+      "id": "ozKFmcfCUqkeNiwJBvi7W",
+      "ownerId": "Twb2fd0KEvgwcz5o9vf2y",
+      "title": "Test",
+      "content": "Test",
+      "rating": 0,
+      "isEdited": false,
+      "likedBy": [],
+      "dislikedBy": [],
+      "answers": []
+    },
+    {
+      "id": "8R3MNktYjkA7HM_Sn1Jtf",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "title": "fffffffffffff",
+      "content": "fsdfsdf",
+      "rating": 0,
+      "isEdited": true,
+      "likedBy": [],
       "dislikedBy": [],
       "answers": []
     }
@@ -92,13 +124,6 @@
       "postId": "66dKBAIctmaiwK5K0D-av",
       "ownerId": "uk_hTR_3yvNjg444gg10Y",
       "content": "Javascript rulez!",
-      "isEdited": false
-    },
-    {
-      "id": "kbx5o5LXnw6aj-wBrV9l-",
-      "postId": "66dKBAIctmaiwK5K0D-av",
-      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
-      "content": "f",
       "isEdited": false
     }
   ]

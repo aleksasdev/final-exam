@@ -17,10 +17,10 @@ export const Question = ({ data }) => {
 
 	return (
 		<div className='question'>
-			<div className="content" onClick={gotoPost} >
+			<div className="content" >
 				<Manipulation postId={id} />
-				<h1 className="title">{title}</h1>
-				<p className="body">{content}</p>
+				<h1 className="title" onClick={gotoPost} >{title}</h1>
+				<p className="body" onClick={gotoPost} >{content}</p>
 			</div>
 
 			<Rating postId={id} />
