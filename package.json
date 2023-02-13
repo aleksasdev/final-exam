@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@aleksasdev/json-api": "^0.0.0",
-    "@aleksasdev/validation-form": "^1.1.4",
+    "@aleksasdev/validation-form": "^1.1.5",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",

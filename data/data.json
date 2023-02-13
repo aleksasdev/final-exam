@@ -29,9 +29,36 @@
       "title": "What's the meaning of life? 🤔",
       "content": "I've been thinking lately, what's the purpose, what are we doing on this planet? Are we here to just merely reproduce and multiply, or is there a bigger meaning, lemme know pls!",
       "rating": 0,
-      "isEdited": true,
       "likedBy": [
         "bZSoVxjifxjeN_r2apLd9",
+        "uk_hTR_3yvNjg444gg10Y",
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [],
+      "answers": []
+    },
+    {
+      "id": "SLJrSUnwJ8m83Mf4dCsPD",
+      "ownerId": "bZSoVxjifxjeN_r2apLd9",
+      "title": "Do you like basketball?",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula aliquet lacus, ac scelerisque ante ultricies a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus consectetur et urna vel sagittis. Aenean ultrices, mauris ut dictum ornare, metus ipsum dictum tortor, sed dapibus enim nisi quis velit. \n\nProin consequat lacinia nulla at rhoncus. Morbi nec finibus elit, ac commodo sapien. Donec vel ex at magna elementum sodales. Nullam rhoncus ultricies nisi, quis porttitor dui maximus sed. Donec vehicula augue diam, id eleifend velit lobortis porttitor. Donec eu pharetra magna. Nulla ornare, mauris ut consectetur sodales, ex libero porta sem, sit amet mollis diam ipsum sodales nisl. Nunc sollicitudin mollis faucibus. \n\nDonec imperdiet, libero a hendrerit euismod, diam arcu auctor dolor, nec fermentum dui lacus id magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum massa lorem, nec luctus orci gravida vel. Praesent porttitor facilisis justo iaculis aliquam.",
+      "rating": 0,
+      "isEdited": false,
+      "likedBy": [
+        "aOZSXF27bvPG3LHnvLfu8"
+      ],
+      "dislikedBy": [],
+      "answers": []
+    },
+    {
+      "id": "66dKBAIctmaiwK5K0D-av",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "title": "What's your favorite programming language?",
+      "content": "Aenean tincidunt sodales ullamcorper. Pellentesque tincidunt, dolor et aliquet blandit, quam nulla consequat tellus, eu semper risus leo in felis. Nullam id tincidunt magna. Vestibulum at ex venenatis, imperdiet sem et, tempor lacus. Suspendisse a elementum leo. Morbi nisi justo, volutpat at mi nec, consequat commodo est. Vestibulum mollis ipsum sed pharetra ornare. Nam sed quam dignissim, finibus mauris id, gravida ipsum. Nullam tincidunt velit id eros feugiat, tincidunt feugiat sem malesuada. Duis pretium ut eros et maximus. Ut convallis iaculis tortor, eget scelerisque elit luctus vel. Suspendisse fringilla dignissim facilisis. Mauris vitae dictum sapien?",
+      "rating": 0,
+      "isEdited": false,
+      "likedBy": [
+        "aOZSXF27bvPG3LHnvLfu8",
         "uk_hTR_3yvNjg444gg10Y"
       ],
       "dislikedBy": [],
@@ -44,6 +71,27 @@
       "postId": "jgholXPcCHbh7vhAfWfUO",
       "ownerId": "uk_hTR_3yvNjg444gg10Y",
       "content": "I can't say for sure, young man, but from what I've experienced... on a second thought, I'm not saying ahahaha!",
+      "isEdited": false
+    },
+    {
+      "id": "81Xh9tUCTCmF-Nb-Zzf_e",
+      "postId": "SLJrSUnwJ8m83Mf4dCsPD",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis, massa ut dignissim sodales, nibh neque porttitor erat, imperdiet laoreet nibh augue a orci. Integer orci urna, pellentesque feugiat condimentum in, accumsan eget nulla. In turpis eros, aliquet in diam eu, posuere imperdiet sem. Nam quam risus, placerat eu faucibus.",
+      "isEdited": false
+    },
+    {
+      "id": "S0Nwf1dJtpV3hwPNhv2vs",
+      "postId": "jgholXPcCHbh7vhAfWfUO",
+      "ownerId": "aOZSXF27bvPG3LHnvLfu8",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate neque in diam ornare mollis.",
+      "isEdited": false
+    },
+    {
+      "id": "bFa4jbVZOqcIhRhKx5esv",
+      "postId": "66dKBAIctmaiwK5K0D-av",
+      "ownerId": "uk_hTR_3yvNjg444gg10Y",
+      "content": "Javascript rulez!",
       "isEdited": false
     }
   ]
